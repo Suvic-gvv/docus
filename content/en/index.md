@@ -119,3 +119,71 @@ Shipped with many features
   Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
   :::
 ::
+
+::u-page-section
+---
+title: sdfsdfs
+---
+  :::steps{level="4"}
+  #### Start a fresh new project
+
+  ```bash [Terminal]
+  npm create nuxt@latest -- -t github:nuxt-content/docus
+  ```
+
+  #### Run docus CLI to run your dev server
+
+  ```bash [Terminal]
+  docus dev
+  ```
+  :::
+
+#body
+  :::card-group
+    ::::card
+    ---
+    icon: i-simple-icons-github
+    target: _blank
+    title: Dashboard
+    to: https://github.com/nuxt-ui-templates/dashboard
+    ---
+    A dashboard with multi-column layout.
+    ::::
+
+    ::::card
+    ---
+    icon: i-simple-icons-github
+    target: _blank
+    title: SaaS
+    to: https://github.com/nuxt-ui-templates/saas
+    ---
+    A template with landing, pricing, docs and blog.
+    ::::
+
+    ::::card
+    ---
+    icon: i-simple-icons-github
+    target: _blank
+    title: Docs
+    to: https://github.com/nuxt-ui-templates/docs
+    ---
+    A documentation with `@nuxt/content`.
+    ::::
+
+    ::::card
+    ---
+    icon: i-simple-icons-github
+    target: _blank
+    title: Landing
+    to: https://github.com/nuxt-ui-templates/landing
+    ---
+    A landing page you can use as starting point.
+    ::::
+  :::
+
+#top
+---
+
+#bottom
+---
+::
