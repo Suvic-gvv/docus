@@ -1,12 +1,14 @@
 ---
 seo:
   title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. Docus brings together the best of the Nuxt ecosystem. Powered by Nuxt UI.
+  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
+    design out of the box. Docus brings together the best of the Nuxt ecosystem.
+    Powered by Nuxt UI.
 ---
 
 ::u-page-hero
 #title
-Создавайте прекрасную документацию на Markdown
+Write beautiful docs with Markdown
 
 #description
 Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
@@ -18,10 +20,10 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   ---
   color: neutral
   size: xl
-  to: /en/getting-started/introduction
+  to: /getting-started/installation
   trailing-icon: i-lucide-arrow-right
   ---
-  Начать
+  Get started
   :::
 
   :::u-button
@@ -49,7 +51,7 @@ Shipped with many features
   ---
   #title
   Built with [Nuxt 4]{.text-primary}
-
+  
   #description
   Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
   :::
@@ -62,7 +64,7 @@ Shipped with many features
   ---
   #title
   Powered by [Nuxt UI]{.text-primary}
-
+  
   #description
   Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
   :::
@@ -75,7 +77,7 @@ Shipped with many features
   ---
   #title
   Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
-
+  
   #description
   The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
   :::
@@ -88,7 +90,7 @@ Shipped with many features
   ---
   #title
   Customize with [Nuxt App Config]{.text-primary}
-
+  
   #description
   Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
   :::
@@ -101,7 +103,7 @@ Shipped with many features
   ---
   #title
   Edit in production with [Nuxt Studio]{.text-primary}
-
+  
   #description
   Edit your content in production with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
   :::
@@ -114,76 +116,8 @@ Shipped with many features
   ---
   #title
   Built-in navigation and [full-text search]{.text-primary}
-
+  
   #description
   Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
   :::
-::
-
-::u-page-section
----
-title: sdfsdfs
----
-  :::steps{level="4"}
-  #### Start a fresh new project
-
-  ```bash [Terminal]
-  npm create nuxt@latest -- -t github:nuxt-content/docus
-  ```
-
-  #### Run docus CLI to run your dev server
-
-  ```bash [Terminal]
-  docus dev
-  ```
-  :::
-
-#body
-  :::card-group
-    ::::card
-    ---
-    icon: i-simple-icons-github
-    target: _blank
-    title: Dashboard
-    to: https://github.com/nuxt-ui-templates/dashboard
-    ---
-    A dashboard with multi-column layout.
-    ::::
-
-    ::::card
-    ---
-    icon: i-simple-icons-github
-    target: _blank
-    title: SaaS
-    to: https://github.com/nuxt-ui-templates/saas
-    ---
-    A template with landing, pricing, docs and blog.
-    ::::
-
-    ::::card
-    ---
-    icon: i-simple-icons-github
-    target: _blank
-    title: Docs
-    to: https://github.com/nuxt-ui-templates/docs
-    ---
-    A documentation with `@nuxt/content`.
-    ::::
-
-    ::::card
-    ---
-    icon: i-simple-icons-github
-    target: _blank
-    title: Landing
-    to: https://github.com/nuxt-ui-templates/landing
-    ---
-    A landing page you can use as starting point.
-    ::::
-  :::
-
-#top
----
-
-#bottom
----
 ::
